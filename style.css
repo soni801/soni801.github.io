@@ -23,7 +23,9 @@ a:active {
 }
 
 body {
-	background-color: #242424;
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 a {
@@ -68,7 +70,7 @@ p {
 	left: 0;
 	width: 2000px;
 	height: 246px;
-	background-color: #1C1C1C;
+	background-color: rgba(28, 28, 28, 0.8);
 }
 
 #body {
@@ -76,5 +78,4 @@ p {
 	top: 246px;
 	left: 25px;
 	width:1000px;
-	height:900px;
 }
