@@ -21,7 +21,7 @@ body
     float: left;
     color: white;
     text-align: center;
-    padding: 14px;
+    padding: 15px;
     text-decoration: none;
     border-bottom: 3px solid transparent;
 }
@@ -31,6 +31,24 @@ body
     border-bottom: 3px solid #3ba3a1;
 }
 
+#screen-space
+{
+    min-height: 100px;
+}
+
+.background
+{
+    position: fixed;
+    z-index: -1;
+}
+
+.main
+{
+    background-color: white;
+    width: auto;
+    padding: 15px 30px 15px 30px;
+}
+
 .sticky
 {
     position: fixed;
@@ -38,8 +56,8 @@ body
     width: 100%;
 }
 
-.front
+.resize
 {
-    text-align: center;
-    font-size: 60px;
+    width: 100%;
+    height: auto;
 }
